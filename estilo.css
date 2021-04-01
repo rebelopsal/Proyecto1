@@ -1,0 +1,291 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:'Shippori Mincho B1', serif; 
+    background-color: rgba(80, 80, 151, 0.568);
+    margin: 0;
+
+}
+
+.contenedor{
+    width: 100%;
+    max-width: 1170px;
+    margin:auto;
+}
+
+header{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(46, 6, 83);
+}
+
+.logo{
+    padding: 50px 0;
+}
+
+.logo img{
+    width: 25%;
+    display: block;
+    margin: auto;
+}
+
+.menu{
+    overflow: hidden;
+    background-color: rgba(207, 195, 195, 0.137);
+    position:fixed;
+    top: 0;
+    width: 100%;
+}
+
+.menu a{
+    float: left;
+    display: block;
+    color: cornsilk;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+}
+
+.menu a:hover{
+    color: rgb(125, 155, 211);
+}
+
+.banner{
+    width: 100%;
+    height: 100px;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(128, 128, 128, 0.885);
+}
+
+.banner > div{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(209, 204, 204, 0.034);
+}
+
+.llamada-accion{
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+
+    height: 100%;
+}
+
+.llamada-accion h1{
+    font-size: 60px;
+    color: rgb(9, 16, 39);
+    width: 100%;
+    padding: 45px 0;
+    background-color: rgba(7, 7, 7, 0);
+    max-width: 200px;
+    font-family: 'Grenze Gotisch', cursive;
+    
+    
+}
+
+/*FIN DEL BANNER*/
+/* INICIO DE MIEMBROS*/
+
+.miembro{
+    width: 100%;
+    background-color: rgb(12, 12, 63);
+    margin: 2px;
+    color: rgb(29, 29, 61);
+    text-align: center;
+    background-image: url(./img/POD-logo.bmp);
+    background-size: initial;
+    background-position: center;
+    background-repeat: initial;
+
+}
+
+
+.miembro > .contenedor{
+     display:flex;
+     flex-direction:column;
+     flex-wrap: nowrap;
+     justify-content: space-around;
+     background:radial-gradient(circle, rgba(117,61,61,0.944397742006959) 6%, rgba(13,12,12,0.7203081061526173) 100%);
+}
+
+ .contenedor h2{
+    color: rgb(35, 35, 63);
+    font-size: 50px;
+    font-family: 'Grenze Gotisch', cursive;
+
+}
+
+.contenedor  a~img{
+    width: 100%;
+    border: double;
+    border-color: rgb(75, 18, 30);
+}
+
+/*Fin de miembros*/
+/* Inicio de Historia*/
+
+.historia {
+    width: 100%;
+    background-color: aliceblue;
+    background-image: url(./img/imagen90.jpg);
+    background-position: center;
+    text-align: center;
+    background-size: cover;
+    background-color: rgba(148, 44, 44, 0.453);
+}
+
+.historia h3{
+    font-size: 30px;
+    color: rgb(14, 186, 125);
+    background-color: rgba(95, 14, 14, 0.234);
+    font-family: 'Grenze Gotisch', cursive;
+}
+
+.historia p{
+    font-size: 20px;
+    color: rgb(253, 253, 253);
+    background-color: rgba(100, 37, 37, 0.371);
+}
+
+.discografia{
+    width: 100%;
+    background-color: aliceblue;
+    background: radial-gradient(circle, rgba(3,36,0,1) 0%, rgba(110,102,84,1) 35%, rgba(10,7,19,1) 100%);
+    display: flex;
+    flex-direction: row;
+    background-position: center;
+    text-align: center;
+    border: double;
+    list-style: none;
+}
+.discografia img{
+     border: double;
+     border-width: 3px;
+}
+.discografia li{
+    border: double;
+    margin-right: 150px;
+    margin-left: 150px;
+    list-style: none;
+}
+
+.discografia h3{
+    font-size: 30px;
+    color: rgb(128, 12, 12);
+}
+
+.discografia p{
+    font-size: 20px;
+    color: rgb(58, 19, 19);
+}
+
+.discografia h4{
+   font-size: 25px;
+    
+}
+
+.center-footer{
+    background-color: aliceblue;
+    background-image: url(./img/descarga10.jpg);
+    z-index: -1;
+    width: 100%;
+}
+.center-footer li{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-position: center;
+}
+
+
+
+.center-footer  .video h3{
+    font-size: 40px;
+    color: rgb(111, 27, 27);
+}
+
+.center-footer  .video h4{
+    font-size: 30px;
+    color: rgb(135, 19, 44);
+}
+
+.final{
+    background-image: url(./img/images00.jpg);
+    z-index: -1;
+    background-size: initial;
+    background-position: center;
+    background-repeat:round;
+}
+
+.formulario{
+    border: double;
+    margin:auto;
+    margin-right:100px;
+    margin-left: 100px;
+    width: 400px;
+    height: 450px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(0, 0, 0);
+    background: radial-gradient(circle, rgba(122,58,58,1) 0%, rgba(154,82,82,0.7203081061526173) 100%);
+}
+
+.formulario h4{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.controls{
+    width: 100%;
+    background: rgba(118, 156, 194, 0.015);
+    padding: 13px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #2428313d;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+.final p{
+    height: 40px;
+    text-align: center;
+}
+
+.final .boton{
+    background: rgb(48, 14, 21);
+    border: currentColor;
+    padding: 10px;
+    margin: 15px;
+    color: darkgrey;
+}
+
+
+
+textarea{
+   max-width: 40%;
+    
+    height: 50px;
+    max-height: 50px;
+    font-size: 14px;
+}
+
+.footer-boton{
+    background: rgba(61, 40, 72, 0.693);
+    text-align: center;
+    font-family: 'Grenze Gotisch', cursive;
+}
+
+.footer-boton h4{
+    color: rgb(12, 14, 14);
+    font-size: 20px;
+    box-shadow: dimgrey;
+}
+
